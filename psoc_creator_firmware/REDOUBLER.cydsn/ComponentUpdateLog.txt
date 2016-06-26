@@ -44,3 +44,32 @@ REDOUBLER: TopDesign
 	ADC_DelSig_1 [v3.10] to [v3.20]
 
 
+Last Modified Date & Time: 11/02/2015 13:55:21
+
+REDOUBLER: REDOUBLER.cydwr
+	cy_boot [v4.20] to [v5.20]
+
+
+Last Modified Date & Time: 03/11/2016 10:44:28
+
+REDOUBLER: TopDesign.cysch
+	OA1m [v2.20] to [v2.20]
+	OA2m [v2.20] to [v2.20]
+	OA3m [v2.20] to [v2.20]
+	OA2o [v2.20] to [v2.20]
+	C2o [v2.20] to [v2.20]
+	C0o [v2.20] to [v2.20]
+	OA3o [v2.20] to [v2.20]
+	C3o [v2.20] to [v2.20]
+	OA0m [v2.20] to [v2.20]
+	C1o [v2.20] to [v2.20]
+	OA1o [v2.20] to [v2.20]
+	OA0o [v2.20] to [v2.20]
+	USBFS [v3.0] to [v3.0]
+	USBFS_1 [v3.0] to [v3.0]
+
+REDOUBLER: REDOUBLER.cydwr
+	cy_boot [v5.20] to [v5.30]
+	LIN_Dynamic [v3.20] to [v3.30]
+
+
