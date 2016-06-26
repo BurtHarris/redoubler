@@ -4,7 +4,7 @@ REDOUBLER is a Random Number Generator based on Modular Entropy Multiplication. 
 
 REDOUBLER-DIY is an easy-to-assemble version of REDOUBLER which requires no custom printed circuit boards or tricky soldering of surface mount devices.   This version starts with a $10  [Cypress CY8CKIT-059](http://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)  prototyping kit.   The kit is available direct from Cypress, or through [DigiKey](http://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8CKIT-059/428-3390-ND/5184557).   Some other distributors have it available, but are  charging a higher price.  I've added just eight 1% tolerance resistors to the kit in an attempt to duplicate old-style axial resistors needed to complete this design only a few bucks more. (More details below.)   Assembled, my prototype looked like this:
 
-![REDOUBLER-DIY, hand built](images\WP_20160626_15_29_31_Pro.jpg?raw=true "assembled")
+![REDOUBLER-DIY, hand built](images/WP_20160626_15_29_31_Pro.jpg?raw=true "assembled")
 
 REDOUBLER's designer helped me with my effort implement this on the CY8CKIT-059 by providing some notes and code which differ slightly from the version on his project site.   I'm checking them in here to track DIY fork of his work and any modifications I might make to hardware or software.    Other than those modification, all credit for this work belongs to the original author.
 
