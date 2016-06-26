@@ -1,0 +1,20 @@
+// .gitignore
+
+// General policy: don't check in generated files
+**/Debug/*
+**/Release/*
+**/codegentemp/*
+**/Generated_Source/*
+
+// Exception, we _will_ check in hex files used to program devices
+!*.hex
+
+
+// User-configuration preferences excluded (per Cypres KBA86358)
+
+*.cyprj.*
+*.cywsp
+*.cywsp.*
+
+// Excluding out BACKUP files as well
+**/Backup/*
