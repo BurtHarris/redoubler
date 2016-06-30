@@ -5,6 +5,9 @@
 REDOUBLER-DIY is an easy-to-assemble version of REDOUBLER which requires no custom printed circuit boards or tricky soldering of surface mount devices.  It was assembled with the original designer's support and advice.   This version starts with a $10  [Cypress CY8CKIT-059](http://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)  prototyping kit.   The kit is available direct from Cypress, or through [DigiKey](http://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8CKIT-059/428-3390-ND/5184557).   Some other distributors have it available, but are  charging a higher price.  I've added just eight 1% tolerance resistors to the kit in an attempt to duplicate REDOUBLER's behavior.     Assembled, my prototype looked like this:
 
 ![REDOUBLER-DIY, hand built](images/WP_20160626_15_29_31_Pro.jpg?raw=true "assembled")
+
+After some initial debugging, a small change was made in the resistor connections, the next photo shows the resistor wiring which corrected a mistake I made.
+
 ![close up of resistors](images/WP_20160629_21_06_49_Pro.jpg?raw=true "resistors")
 
 Once assembled correctly, and running a version of the REDOUBLER's firmware, measurement of the voltage at the junction of each pair of resistors (the op-amp's inverting input) shows an interesting looking signal as shown below: 
