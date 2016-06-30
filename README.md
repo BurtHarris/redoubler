@@ -1,11 +1,14 @@
 # REDOUBLER-DIY
 
-REDOUBLER is a Random Number Generator based on Modular Entropy Multiplication. It is Open Source Hardware. The device plugs into a host's USB port, and enumerates as a standard microphone. When the microphone is sampled it produces white noise which contains a high proportion of random entropy. The digital data behind that white noise is random numbers, and they can be recorded and used for any purpose that requires a non-deterministic entropy source.  The original designer responsible for REDOUBLER is [Peter Allan](https://github.com/alwynallan).
+REDOUBLER is a deisgn for a hardware Random Number Generator put forward by Peter Allan (@alwynallan), you can find his project at https://github.com/alwynallan/redoubler.   The device plugs into a host's USB port, and enumerates as a standard microphone. The assertion Peter has made is that the output of this pseudo-microphone produces white noise which contains a high proportion of random entropy, and that it can be recorded and used for any purpose that requires a non-deterministic entropy source.  
 
-REDOUBLER-DIY is an easy-to-assemble version of REDOUBLER which requires no custom printed circuit boards or tricky soldering of surface mount devices.   This version starts with a $10  [Cypress CY8CKIT-059](http://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)  prototyping kit.   The kit is available direct from Cypress, or through [DigiKey](http://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8CKIT-059/428-3390-ND/5184557).   Some other distributors have it available, but are  charging a higher price.  I've added just eight 1% tolerance resistors to the kit in an attempt to duplicate old-style axial resistors needed to complete this design only a few bucks more. (More details below.)   Assembled, my prototype looked like this:
+REDOUBLER-DIY is an easy-to-assemble version of REDOUBLER which requires no custom printed circuit boards or tricky soldering of surface mount devices.  It was assembled with the original designer's support and assistance.   This version starts with a $10  [Cypress CY8CKIT-059](http://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)  prototyping kit.   The kit is available direct from Cypress, or through [DigiKey](http://www.digikey.com/product-detail/en/cypress-semiconductor-corp/CY8CKIT-059/428-3390-ND/5184557).   Some other distributors have it available, but are  charging a higher price.  I've added just eight 1% tolerance resistors to the kit in an attempt to duplicate REDOUBLER's behavior.     Assembled, my prototype looked like this:
 
 ![REDOUBLER-DIY, hand built](images/WP_20160626_15_29_31_Pro.jpg?raw=true "assembled")
 ![close up of resistors](images/WP_20160629_21_06_49_Pro.jpg?raw=true "resistors")
+
+Once assembled correctly, and running a version of the REDOUBLER's firmware, measurement of the voltage at the junction of each pair of resistors (the op-amp's inverting input) shows an interesting looking signal as shown below: 
+
 ![oscope trace of op-amp inverting input](images/WP_20160629_21_10_32_Pro.jpg?raw=true "scope")
 ![oscope trace of op-amp inverting input](images/WP_20160629_21_12_33_Pro.jpg?raw=true "scope")
 
