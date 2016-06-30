@@ -7,6 +7,7 @@ REDOUBLER-DIY is an easy-to-assemble version of REDOUBLER which requires no cust
 ![REDOUBLER-DIY, hand built](images/WP_20160626_15_29_31_Pro.jpg?raw=true "assembled")
 ![close up of resistors](images/WP_20160629_21_06_49_Pro.jpg?raw=true "resistors")
 ![oscope trace of op-amp inverting input](images/WP_20160629_21_10_32_Pro.jpg?raw=true "scope")
+![oscope trace of op-amp inverting input](images/WP_20160629_21_12_33_Pro.jpg?raw=true "scope")
 
 
 REDOUBLER's designer helped me with my effort implement this on the CY8CKIT-059 by providing some notes and code which differ slightly from the version on his project site.   I'm checking them in here to track DIY fork of his work and any modifications I might make to hardware or software.    Other than those modification, all credit for this work belongs to the original author.
